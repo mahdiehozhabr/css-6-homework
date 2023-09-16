@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav.class{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ height: 50px;
+ border: none;
+ align-items: baseline;
+ align-content: space-between;
+
+}
+ nav ul li{
+margin: 1rem 8rem 1rem 8rem;
+background-color: rgb(rgba(0, 255, 30, 0.043), green, blue);
+display: inline-block; */
+ justify-content: space-around;
+border: ridge gold 0.25rem;
+text-decoration: none;
+
+text-align: center;
+padding: 1px;
+}
+a{
+    text-decoration: none;
+}
+.sec-one{
+    border: solid 1px;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.sec-two{
+    position: relative;
+    display: flex;
+    justify-content: baseline;
+    justify-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    
+
+}
+section>article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+  
+}
+.container{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.one{
+    margin: 1rem 0;
+}
+.art-one, .art-two, .art-three, .art{
+border: solid 1px gray;
+background-color: rgb(212, 204, 204);
+width:200px;
+height: 300px;
+border-radius: 5px;
+
+}
+.sec-two> .art-one, .art-two, .art-three, .art{
+    justify-content: center;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.art-one> div{
+    border: 1px solid green;
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50% 0 50% 50%;
+  
+}
+img{
+    width: 100px;
+}
+span{
+    font-weight: bold;
+}
+.border{
+display: flex;
+align-items: center;
+}
+.border>div h3{
+    border-right: 1px solid;
+    margin-right: 3rem;
+    padding-right: 1rem;
+    height: 13rem;
+}
+.table{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.boardone{
+text-align: center;
+margin-bottom: 10px;
+}
+.boardtwo{
+    border: 1px solid ;
+    width: 290px;
+    height: 50px;}
+
+
+@media screen and (min-width: 0) and (max-width: 1259px){
+    .table, .sec-two{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10rem;
+    }
+    nav{
+        align-items: flex-start;
+    }
+ 
+
+    
+}
